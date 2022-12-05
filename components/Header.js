@@ -22,7 +22,9 @@ const Header = () => {
         </Link>
         <div className="space-x-5 hidden md:flex md:items-center">
           {links.map((link) => (
-            <Link href={link.path}>{link.name}</Link>
+            <Link href={link.path} key={link.name}>
+              {link.name}
+            </Link>
           ))}
         </div>
         <button
