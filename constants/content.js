@@ -1,0 +1,48 @@
+export const sectionContent = [
+  {
+    header: "Model S",
+    text: "Vereinbaren Sie eine virtuelle Beratung",
+    button1: "Konfiguration",
+    button2: "Verfügbarer Bestand",
+    showIcon: true,
+    bgImage: "/images/model-s.jpg",
+  },
+  {
+    header: "Model 3",
+    text: "Tesla Umweltbonus für Bestellungen bis zum 31.12.2022",
+    button1: "Konfiguration",
+    button2: "Bestand erkunden",
+    showIcon: false,
+    bgImage: "/images/model-3.jpg",
+  },
+  {
+    header: "Model X",
+    text: "Vereinbaren Sie eine virtuelle Beratung",
+    button1: "Konfiguration",
+    button2: "Bestand erkunden",
+    showIcon: false,
+    bgImage: "/images/model-x.jpg",
+  },
+  {
+    header: "Model Y",
+    text: "Tesla Umweltbonus für Bestellungen bis zum 31.12.2022",
+    button1: "Konfiguration",
+    button2: "Bestand erkunden",
+    showIcon: false,
+    bgImage: "/images/model-y.jpg",
+  },
+  {
+    header: "Solarkollektoren und Powerwall",
+    text: "Solarstrom für alles",
+    button1: "Weitere Informationen",
+    showIcon: false,
+    bgImage: "/images/solar-panel.jpg",
+  },
+  {
+    header: "Zubehör",
+    text: "",
+    button1: "Jetzt einkaufen",
+    showIcon: false,
+    bgImage: "/images/accessories.jpg",
+  },
+];
