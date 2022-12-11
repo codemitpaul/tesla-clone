@@ -15,12 +15,12 @@ const Section = ({ header, text, bgImage, button1, button2, showIcon }) => {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-center w-full px-20 space-y-5 md:space-y-0 md:space-x-5">
           {button1 && (
-            <button className="bg-gray-900 opacity-90 p-3 text-center text-white w-1/2">
+            <button className="bg-gray-900 opacity-90 p-3 text-center text-white w-full sm:w-1/2">
               {button1}
             </button>
           )}
           {button2 && (
-            <button className="bg-gray-100 opacity-90 p-3 text-center text-slate-900 w-1/2">
+            <button className="bg-gray-100 opacity-90 p-3 text-center text-slate-900 w-full sm:w-1/2">
               {button2}
             </button>
           )}
