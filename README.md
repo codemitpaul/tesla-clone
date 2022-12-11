@@ -1,4 +1,4 @@
-# Was ist Nextjs?
+# Was ist Nextjs? (D)
 
 Next.js ist ein React-Framework,
 das Ihnen Bausteine für die Erstellung von Webanwendungen bietet.
